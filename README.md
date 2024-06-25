@@ -6,3 +6,9 @@ Es können jedoch auch Ideen ausgetauscht, Probleme gelöst und gemeinsame Proje
 <b> <i> Lets take VP Bank to the moon 📈 🚀 🌙 </b> </i> 
 
 
+
+
+
+
+
+
