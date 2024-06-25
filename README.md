@@ -5,6 +5,8 @@ Es können jedoch auch Ideen ausgetauscht, Probleme gelöst und gemeinsame Proje
 
 <b> <i> Let's take VP Bank to the moon 📈 🚀 🌙 </b> </i> 
 
+![VP Bank Logo](./vpb.jpg)
+
 
 
 
