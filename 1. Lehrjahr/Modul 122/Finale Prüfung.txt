@@ -1,0 +1,80 @@
+-- Vorname: Dominick
+-- Nachname: Schustereit de la Rosa
+
+
+--------------------------
+------- Aufgabe 5 --------
+- Laufende Dienste       -
+--------------------------
+-- Kommando: Get-Service | Where-Object { $_.Status -eq 'Running' }
+
+
+
+--------------------------
+------- Aufgabe 6 --------
+- Microsoft-Prozesse     -
+--------------------------
+-- Kommando:  Get-Process | Where-Object { $_.Company -eq "Microsoft Corporation" } | Select-Object ProcessName, Company
+
+
+
+
+--------------------------
+------- Aufgabe 7 --------
+- CPU-Auslastung grösser0-
+--------------------------
+-- Kommando: Get-Process | Where-Object { $_.CPU -gt 0 } | Sort-Object CPU | Format-Table ProcessName, CPU, Id
+
+
+
+
+--------------------------
+------- Aufgabe 8 --------
+- Microsoft und Windows Dienste -
+--------------------------
+-- Kommando:  Get-Service | Where-Object { $_.DisplayName -like "*Microsoft*" -or $_.DisplayName -like "*Windows*" } | Sort-Object DisplayName | Select-Object
+
+
+
+
+--------------------------  
+------- Aufgabe 9 --------
+- exe-Dateien
+--------------------------
+-- Kommando:   Get-ChildItem -Path "C:\Program Files" -Filter "*.exe" -Recurse -ErrorAction SilentlyContinue |
+    Measure-Object -Property Length -Minimum -Maximum -Average | Select-object  
+
+
+
+--------------------------
+------- Aufgabe 10 -------
+- Anzahl Dienste         -
+--------------------------
+-- Kommando:  Get-Service | Group-Object -Property Status | Select-Object Name, Count  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
